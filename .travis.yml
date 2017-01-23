@@ -8,7 +8,6 @@ addons:
 
 env:
   - DOCKER_IMAGE_NAME="r.3r1.co/shiro:$TRAVIS_BUILD_NUMBER"
-  - SERVICE_NAME="authenticationservice"
 
 script: mvn package -B
 
